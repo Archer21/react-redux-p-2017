@@ -4,7 +4,6 @@ import React from 'react'
 function Layout (props) {
   return (
     <html>
-      
       <head>
         <meta charSet="utf-8"/>
         <title>{ props.title }</title>
