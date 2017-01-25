@@ -21,10 +21,10 @@ function Pages () {
 
       {/* Perfil de usuario */}
       <Match 
-      pattern="/user/:id"
-      exactly
-      component={Profile} />
-      
+        pattern="/user/:id"
+        exactly
+        component={Profile} />
+        
       {/* Error 404 */}
       <Miss component={Error404}/>
     </main>
